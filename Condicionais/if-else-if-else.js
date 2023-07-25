@@ -1,10 +1,10 @@
-const idade = 68;
+const idade = 27;
 
 if (idade < 18) {
     console.log("Menor de idade")
-} else if (idade <= 65)
+} else if (idade <= 65) {
     console.log("Adulta")
-else {
+} else {
     console.log("Idosa")
 }
 
