@@ -6,7 +6,7 @@ const idade = 13;
 // Se a idade dela for maior que 14 -> Pode entrar
 // Caso contrario -> Nao pode entrar
 
-if (temIngresso & idade >= 14) {
+if (temIngresso && idade >= 14) {
     console.log("Pode entrar")
 } else {
     console.log("Não pode entrar")
