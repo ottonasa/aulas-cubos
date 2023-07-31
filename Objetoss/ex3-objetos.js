@@ -22,4 +22,9 @@ const cartao = {
     ]
 };
 
-console.log(cartao.nome)
+console.log(cartao.nome);
+console.log(cartao.idade);
+cartao.idade = 29;
+console.log(cartao.idade);
+console.log(cartao.produtosConsumidos[0]);
+console.log(cartao.produtosConsumidos[0].nome);
