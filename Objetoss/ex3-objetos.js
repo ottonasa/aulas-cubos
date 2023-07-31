@@ -28,3 +28,5 @@ cartao.idade = 29;
 console.log(cartao.idade);
 console.log(cartao.produtosConsumidos[0]);
 console.log(cartao.produtosConsumidos[0].nome);
+console.log(cartao.produtosConsumidos[2].precoUnit);
+console.log(cartao.produtosConsumidos[cartao.produtosConsumidos.length - 1].precoUnit);
